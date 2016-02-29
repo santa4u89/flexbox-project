@@ -1,0 +1,48 @@
+.daily-offers
+    width: 940px
+    margin: 0 auto
+    font-size: 13px
+
+.offer-item
+    display: flex
+    margin-bottom: 60px
+
+    .picture
+        margin-right: $grid-gutter-width/2
+
+    .label
+        position: absolute
+        top: 0
+        left: $grid-gutter-width/2
+        font-size: 18px
+        text-transform: uppercase
+        font-weight: 700
+        padding: 0 5px
+        background: $red
+        color: #FBE400
+
+    .brand-title
+        margin-bottom: 5px
+
+    .product-title
+        color: #1A3C7B
+        margin-top: 0
+        font-weight: 700
+
+    .old-price,
+    .main-price
+        font-size: $font-size-h2
+        font-weight: bold
+        margin-bottom: 0
+
+        &.red
+            color: $red
+
+        .old.price
+            text-decoration: line-through
+
+    .mute
+        line-height: 1
+        color: #999
+        font-size: 15px
+        font-weight: 300

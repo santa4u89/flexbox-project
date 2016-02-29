@@ -1,0 +1,21 @@
+{# <ul class="flex-container justify-space-between" id="justify">
+    <li class="item" data-color="2a80b9" style="background-color: rgb(42, 128, 185);">
+        <div id="homestore" class="selected">
+            <a href="store-detail.html">Praha - Černý Most</a>
+            <span class="change-store">(Change store)</span>
+        </div>
+    </li>
+    <li class="item" data-color="8f44ad" style="background-color: rgb(143, 68, 173);">
+        <p>2</p>
+    </li>
+    <li class="item" data-color="16a086" style="background-color: rgb(22, 160, 134);">
+        <p>3</p>
+    </li>
+    <li class="item" data-color="f1c40f" style="background-color: rgb(241, 196, 15);">
+        <p>4</p>
+    </li>
+    <li class="item" data-color="e77e23" style="background-color: rgb(231, 126, 35);">
+        <p>5</p>
+    </li>
+</ul>
+ #}

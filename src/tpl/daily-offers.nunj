@@ -1,0 +1,205 @@
+{% extends "./layout/default.nunj" %}
+
+{% block content %}
+<div class="daily-offers">
+    <div class="offer-anchor">
+        <p class="anchor-title">Following offers are valid from 21.8. to 3.9.2015</p>
+        <ul class="visible-xs">
+            <li><a href="#mixedoffers">Mixedoffers</a></li>
+            <li><a href="#fish">Fish</a></li>
+        </ul>
+    </div>
+    <h2 id="mixedoffers" class="not-a-link">Mixedoffers</h2>
+    <div class="row flex-container flex-wrap">
+        <div class="col-sm-4 col-md-6 offer-item">
+            <div class="picture">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/68" media="(min-width: 992px)">
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/67" media="(min-width: 768px)">
+                    <source data-req-width="300" data-req-height="220" srcset="http://satyr.io/300x220/66" media="(min-width: 320px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="http://satyr.io/220x161/68" alt="Responsive image" class="">
+                </picture>
+            </div>
+            <span class="label red">Top Hit</span>
+            <div class="inner">
+                <p class="brand-title">Microsoft</p>
+                <h3 class="product-title">Windows 10</h3>
+                <p class="old-price red">
+                    <span class="old price">650,80 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <p class="main-price red">
+                    <span class="price">28674,99 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <p class="sec-price">
+                    <span class="mute price">650,80 € net</span>
+                </p>
+                <div class="description">
+                    Sometimes the scent of seasonal hand wash is all we need to rouse our holiday spirits. Available in an array of festive fragrances, our naturally derived gel hand wash will leave your hands soft, clean and ready to be tucked into a pair of fair isle mittens. It really is the most wonderful time of the year.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-md-6 offer-item">
+            <div class="picture">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/68" media="(min-width: 992px)">
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/67" media="(min-width: 768px)">
+                    <source data-req-width="300" data-req-height="220" srcset="http://satyr.io/300x220/66" media="(min-width: 320px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="http://satyr.io/220x161/68" alt="Responsive image" class="">
+                </picture>
+            </div>
+
+            <div class="inner">
+                <p class="brand-title">ASUS</p>
+                <h3 class="product-title">GTX960-DC2OC-2GD5-BLACK</h3>
+                <p class="old-price">
+                    <span class="price old">248,60 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <p class="main-price">
+                    <span class="price">205,20 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <div class="description">
+                    SDirectCU II achieves 20% lower temps with 220% the dissipation area, plus 3X quieter running than reference.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-md-6 offer-item">
+            <div class="picture">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/68" media="(min-width: 992px)">
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/67" media="(min-width: 768px)">
+                    <source data-req-width="300" data-req-height="220" srcset="http://satyr.io/300x220/66" media="(min-width: 320px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="http://satyr.io/220x161/68" alt="Responsive image" class="">
+                </picture>
+            </div>
+
+            <span class="label red">Save 20%</span>
+            <div class="inner">
+                <p class="brand-title">Hohes C</p>
+                <h3 class="product-title">Orange</h3>
+                <p class="old-price red small">
+                    <span class="old price">2,20 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <p class="main-price red small">
+                    <span class="price">1,76 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <div class="description">
+                    The classics include 100% juice and be prepared without the addition of sugar, dyes, or preservatives.
+                </div>
+                <p class="validity">Offer is valid on September 3th</p>
+            </div>
+        </div>
+        <div class="col-sm-4 col-md-6 offer-item">
+            <div class="picture">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/68" media="(min-width: 992px)">
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/67" media="(min-width: 768px)">
+                    <source data-req-width="300" data-req-height="220" srcset="http://satyr.io/300x220/66" media="(min-width: 320px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="http://satyr.io/220x161/68" alt="Responsive image" class="">
+                </picture>
+            </div>
+
+            <div class="inner">
+                <p class="brand-title">Herlitz</p>
+                <h3 class="product-title">Scissors</h3>
+                <p class="main-price gray">
+                    <span class="price">1,20 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">net</span>
+                    </span>
+                </p>
+                <div class="description">
+                    The classics include 100% juice and be prepared without the addition of sugar, dyes, or preservatives.
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2 id="fish" class="not-a-link">Fish</h2>
+    <div class="row flex-container flex-wrap">
+        <div class="col-sm-4 col-md-6 offer-item">
+            <div class="picture">
+                <picture>
+                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/68" media="(min-width: 992px)">
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/67" media="(min-width: 768px)">
+                    <source data-req-width="300" data-req-height="220" srcset="http://satyr.io/300x220/66" media="(min-width: 320px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="http://satyr.io/220x161/68" alt="Responsive image" class="">
+                </picture>
+            </div>
+
+            <span class="label red">Top Hit</span>
+            <div class="inner">
+                <p class="brand-title">Microsoft</p>
+                <h3 class="product-title">Windows 10</h3>
+                <p class="main-price red">
+                    <span class="price">599,99 €</span>
+                    <span class="price-info">
+                        <span class="vat-info mute">gross</span>
+                    </span>
+                </p>
+                <p class="sec-price">
+                    <span class="mute price">650,80 € net</span>
+                </p>
+                <div class="description">
+                    Sometimes the scent of seasonal hand wash is all we need to rouse our holiday spirits. Available in an array of festive fragrances, our naturally derived gel hand wash will leave your hands soft, clean and ready to be tucked into a pair of fair isle mittens. It really is the most wonderful time of the year.
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-4 col-md-6 offer-item">
+            <div class="picture">
+                <picture>
+                    <!--[if IE 9]><video>
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/68" media="(min-width: 992px)">
+                    <source data-req-width="220" data-req-height="161" srcset="http://satyr.io/220x161/67" media="(min-width: 768px)">
+                    <source data-req-width="300" data-req-height="220" srcset="http://satyr.io/300x220/66" media="(min-width: 320px)">
+                    <!--[if IE 9]></video><![endif]-->
+                    <img src="http://satyr.io/220x161/68" alt="Responsive image" class="">
+                </picture>
+            </div>
+
+            <div class="inner">
+                <p class="brand-title">ASUS</p>
+                <h3 class="product-title">GTX960-DC2OC-2GD5-BLACK</h3>
+                <p class="old-price">
+                    <span class="price old">248,60 €</span>
+                </p>
+                <p class="main-price">
+                    <span class="price">205,20 €</span>
+                </p>
+                <div class="description">
+                    SDirectCU II achieves 20% lower temps with 220% the dissipation area, plus 3X quieter running than reference.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
