@@ -5,6 +5,7 @@ import plumber from 'gulp-plumber';
 import gulpif from 'gulp-if';
 import gutil from 'gulp-util';
 import postcss from 'gulp-postcss';
+import flexibility from 'postcss-flexibility';
 import autoprefixer from 'autoprefixer';
 import rename from 'gulp-rename';
 import sourcemaps from 'gulp-sourcemaps';
@@ -17,7 +18,8 @@ const isProd = argv.prod || false;
 
 gulp.task('styles', () => {
     let postCssBefore = [
-        autoprefixer({ browsers: ['last 2 versions'] })
+        autoprefixer({ browsers: ['last 2 versions'] }),
+        // flexibility()
     ];
     let postCssAfter = [
         cssnano()

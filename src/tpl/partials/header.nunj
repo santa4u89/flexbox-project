@@ -1,11 +1,27 @@
-{% from "../data/header-data.nunj" import data as data %}
+{# {% from "../data/header-data.nunj" import data as data %} #}
 
-<div class="jumbotron">
+<div class="top-bar" id="top-bar">
     <div class="container">
-        <h1>{{ data.title }}</h1>
-        {{ data.subtitle | safe }}
-        <p>
-            <a class="btn btn-primary btn-md">{{ data.btnText }}</a>
-        </p>
+        <ul class="flex-container justify-space-between">
+            <li class="homestore moved" style="background-color: rgb(42, 128, 185);">
+                <div id="homestore" class="selected">
+                    <a href="store-detail.html">Praha - Černý Most</a>
+                    <span class="change-store">(Change store)</span>
+                </div>
+            </li>
+            <li class="opening moved" style="background-color: rgb(143, 68, 173);">
+                <span class="text">Opening hours: </span>Po - St: 9 - 22, Čt - Pá: 9 - 23, So: 9 - 11:30, 14:30 - 22, Ne: 9:30 - 22
+            </li>
+            <li class="contact moved" style="background-color: rgb(22, 160, 134);">
+                <span class="text">Contact: </span><a href="tel:+420844999111">+420 844 999 111</a>
+            </li>
+            <li class="langs moved" style="background-color: rgb(241, 196, 15);">
+                <div class="dropdown">
+                    <button class="btn-link dropdown-toggle en" type="button" id="langs" data-toggle="dropdown">
+                        <span class="flag">en</span>
+                    </button>
+                </div>
+            </li>
+        </ul>
     </div>
 </div>
